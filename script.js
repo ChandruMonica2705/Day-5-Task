@@ -90,7 +90,7 @@ var arr2 = [
 var mydetails = [
     {"personalDetails":{
         "name":{"firstname":"Monica",
-        "lastname":"chandrasekaran"},
+        "lastname":"chandrasekaran"}},
         "emailid":"monicamahalingam27@gmail.com",
         "age":"30",
         "gender":"female",
@@ -101,20 +101,32 @@ var mydetails = [
         "area":"HsrLayout",
         "district":"bangalore",
         "state":"karnataka",
-        "postalCode":"65894",
-         "languagesKnown":"TamilandEnglish"}
+        "postalCode":"65894",},
+         "languagesknown":"TamilandEnglish"
     },
-    "educationalDetails":{
-        "secondary":{"institute":"abc","board":"central","yearOfpassing":"2007","address":"tuticorin"},
-        "higher":{"institute":"def","board":"central","yearOfpassing":"2009","address":"namakkal"},
-        "underGraduate":{"institute":"xyz","board":"annaUniversity","yearOfpassing":"2013","address":"coimbatore"},
-        "postGraduate":{"institute":"tgh","board":"annaUniversity","yearOfpassing":"2015","address":"tuticorin"},
+    {"educationalDetails":{
+        "secondary":{"institute":"abc",
+        "board":"central",
+        "yearOfpassing":"2007",
+        "address":"tuticorin"},
+        "higher":{"institute":"def",
+        "board":"central",
+        "yearOfpassing":"2009",
+        "address":"namakkal"},
+        "underGraduate":{"institute":"xyz",
+        "board":"annaUniversity",
+        "yearOfpassing":"2013",
+        "address":"coimbatore"},
+        "postGraduate":{"institute":"tgh",
+        "board":"annaUniversity",
+        "yearOfpassing":"2015",
+        "address":"tuticorin"},}
     },
-    "areaOfinterest":["webDevelopment","cloudComputing","dataMining","javascript","python","mernDB"],
-    "technicalSkills":["c","c++","python","javascript","html","css"],
-    "workExperience":{"duration":"2years","role":"assitantProfessor","collegeName":"vbg","Address":"madurai"},
-    }]
-    for (var i=0;i<mydetails.length;i++)
-    {
-    console.log(mydetails[i].personalDetails.name.lastname);
-    }
+    {"areaOfinterest":["webDevelopment","cloudComputing","dataMining","javascript","python","mernDB"]},
+    {"technicalSkills":["c","c++","python","javascript","html","css"]},
+    {"workExperience":{"duration":"2years","role":"assitantProfessor","collegeName":"vbg","Address":"madurai"}},
+    ]
+    //for (var i=0;i<mydetails.length;i++)
+    //{
+        console.log(mydetails);
+    //}
